@@ -1,0 +1,105 @@
+body { background:url('./images/hene.png') no-repeat center ;
+    margin: 0 auto;
+    background-size: cover;
+    height: 1000px;
+}
+@font-face {
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {font-family:'MaplestoryOTFLight';}
+
+a:link  { text-decoration: none; color:rgb(207, 18, 18);} 
+a:hover { text-decoration: none; color: rgb(255, 217, 0);}
+a:visited { text-decoration: gray;}
+
+#login1 {
+text-align: right;
+color: rgb(48, 47, 47);
+margin-right:20px;
+padding: 0px;
+margin-bottom: 0px;
+}
+
+#login2 {
+text-align: right;
+color: rgb(0, 0, 0);
+font-size: 15px;
+margin-right: 25px;
+margin-top: 0px;
+}
+
+h2 {
+text-align: center;
+font-size: 40px;
+color: rgb(255, 217, 91);
+font-weight: bold;
+}
+
+#menu {
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 500px;
+    background-color: antiquewhite;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#menu > ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    animation: none;
+}
+
+#menu > ul > li {
+    display: inline-block;
+    margin: 15px 20px
+}
+
+#main {
+    width: 100%;
+}
+#main > div {
+    position: relative;
+}
+
+#monster {
+    position: absoulute;
+    left: 90%;
+    top: 450px;
+    animation: moving 10s infinite alternate;
+}
+
+@keyframes moving {
+    from{
+        left: 90%;
+        transform: scale(1);
+    }
+    25% {
+        left: 75%;
+        top: 438px;
+        transform: scale(1.1);
+    }
+    50% {
+        left: 60%;
+        top: 423px;
+        transform: scale(1.2);
+    }
+    75% {
+        left: 45%;
+        top: 405px;
+        transform: scale(1.4);
+    }
+    100% {
+        left: 30%;
+        top: 394px;
+        transform: scale(1.5);
+    ;
+    }
+}

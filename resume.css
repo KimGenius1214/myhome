@@ -1,0 +1,32 @@
+body { background-color: rgb(199, 199, 250);
+        font-size: 20px;
+        rgb(70, 70, 70)
+    }
+
+body.gmarket {font-family: 'GmarketSansMedium' ;}
+table { border: midnightblue;
+    border-collapse: collapse;}
+
+h2 {  font-size: 30px;}
+#back { color: oldlace; font-size: 20px}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: midnightblue;
+}
+th {
+    border:slategrey;
+    color: oldlace;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#home {
+    box-sizing: border-box;
+    float: right;
+}

@@ -1,0 +1,8 @@
+#td1 { width: auto; height: auto; max-width: 10px; max-height: 10px;}
+#span1 {color: royalblue; font-size: small; }
+body { background-color: seashell;}
+#title_name {font-size: 30px;}
+#home {
+    box-sizing: border-box;
+    float: right;
+}

@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { font-family: 'NanumSquareRound';  font-size: 16px; height: 100%; color: #444; white-space: normal; word-wrap: break-word; line-height: 1;}
+
+
+* { margin: 0; padding: 0; }
+
+
+a { text-decoration: none;}
+a:link { color: #444; }
+a:visited { color: #444; }
+a:hover { color: #444; }
+a:focus { color: #444; }
+.clear::after { content: ""; display: block; clear: both;}
+
+ul, ol, li { list-style: none;}
+
+.box_inner { width:1050px; margin: 0 auto; }
+
+header { position: relative; left: 0; top: 0; width: 100%; height: 350px;
+    background: #fa2929; z-index: 100;}
+header div { display: block; width: 100%; height: 100%; text-indent: -9999px; overflow: hidden; background: url(../images/qletter.png) no-repeat 50% 50%;}
+
+.main { 
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(155, 155, 155);
+
+}
+.text { 
+    margin-top: 50px;
+    float: left;
+    line-height: 30px;
+    font-size: 18px;
+}
+.text h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.br_line { 
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 20px;
+    }
+
+.box { 
+    background-color: #f7f7f7;
+    margin-top: 50px;
+    float: right;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.box h1 { 
+    color:#fa2929; 
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+.box > div > p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box input[type="email"]{
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.box input[type="text"]{
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.box input[type="checkbox"] {
+    float: left;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #999;
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.small {
+    font-size: 13px;
+    color: #999;
+    margin-right: 80px;
+    float: left;
+}
+
+.sub {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    margin-top: 60px;
+    background-color:#fa2929 ;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    border-top: 1px solid rgb(230, 230, 230);
+    width: 1000px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 200px;
+    height: 800px;
+}
+
+.content ul li {
+    margin-top: 100px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.content ul li img { 
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}
+
+.content ul li p {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+
+.content ul li span {
+    font-size: 13px;
+    color: #999;
+    margin-left: 3px;
+}
+
+
+.btn_more {
+    clear: both;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    margin-top: 80%;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.last {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 70px;
+    background-color: gold;
+    font-size: 18px;
+}
+
+.last .underline {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.clear {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clear img {
+    margin-top: 30px;
+    width: 80px;
+}
+
+.ltext {
+    margin: 30px;
+    font-size: 14px;
+    color: rgb(138, 138, 138);
+}
+
+.ltext p {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        width: 700px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    header {width: 100%; height: 300px;
+        background-size: 30%;}
+
+    main { 
+        width: 50%;
+    }
+
+    main .text{
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    main .box { 
+        float: none;
+        clear: both;
+        width: 50%;
+        margin: 20px;
+    }
+
+    main .box input[type="checkbox"] {
+        float: left;
+        font-size: 15px;
+        position: relative;
+        }
+
+    .small {
+        margin-right: 300px;
+    }
+
+    .content {
+        margin-bottom: 30%;
+    }
+
+    .content ul li { 
+        display: block;
+        width: 50%;
+    }
+
+    .content p {
+        text-align: left;
+    }
+    .content span {
+        position: relative;
+        left: -215px;
+    }
+
+
+    .btn_more {       
+        margin: 20% auto;
+        position: relative;
+        top: 50px;
+    }
+
+}

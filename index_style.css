@@ -1,0 +1,23 @@
+body { background-image:url('window.jpg') ;}
+
+:link { text-decoration: none; color:dodgerblue;}
+:visited { text-decoration: none; color: rgb(139, 139, 139);}
+:hover { text-decoration: underline; color: deeppink;}
+
+div {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: palegoldenrod;
+}
+
+
+#table2, #tr1 {color: papayawhip; 
+    background-color: papayawhip;
+}
+#table3, #tr2 {color: papayawhip; 
+    background-color: papayawhip;    
+}

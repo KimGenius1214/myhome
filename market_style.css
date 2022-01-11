@@ -1,0 +1,59 @@
+#img {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+#check1 {
+    width: 720px;
+    padding: 10px;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid gray;
+    border-top-style: none;
+    margin: 0 auto;
+}
+#check2 
+    {
+        color: white;
+        text-align: left;
+        border-top-style: none;
+        margin: 0 auto;
+    }
+
+h2 {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.redtext {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div {
+    width: 740px;
+    border: 1px solid gray;
+    border-top-style: none;
+    align-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bluetext{
+    color:blue;
+    font-size: 20px;
+}
+
+#smalltext{
+    font-size: 15px;
+}
+#home {
+    box-sizing: border-box;
+    float: right;
+}
